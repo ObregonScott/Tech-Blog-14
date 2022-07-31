@@ -29,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'client')));
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars')
 app.use(session(sess));
+app.use(session({ secret: 'somevalue' }));
 
 app.use(routes)
 
