@@ -1,0 +1,15 @@
+<h3 class="m-4">Comments:</h3>
+<div class="comments p-1 m-4 border border-primary">
+  {{#each this}}
+  <section class="comment">
+    <div class="meta">
+      <b>{{user.username}}</b> on {{format_date created_at}}</br>
+      <p>-> {{comment_text}}</p>
+    </div>
+  </section>
+  {{else}}
+  <h2 class="m4">No comments yet!</h2>
+</div>
+  {{/each}}
+
+</div>
