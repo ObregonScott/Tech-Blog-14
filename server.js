@@ -11,7 +11,7 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
-    secret: process.env.SECRET,
+    secret: "Some value",
     cookie: {},
     resave: false,
     saveUninitialized: true,
@@ -29,7 +29,6 @@ app.use(express.static(path.join(__dirname, 'client')));
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars')
 app.use(session(sess));
-app.use(session({ secret: 'somevalue' }));
 
 app.use(routes)
 
