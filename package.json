@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ObregonScott/Tech-Blog-14#readme",
   "dependencies": {
+    "@faker-js/faker": "^7.3.0",
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.4",
     "dotenv": "^16.0.1",
