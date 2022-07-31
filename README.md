@@ -30,11 +30,13 @@
 
   ## Instructions
 
-  Follow link and BLOG!
+  Follow link,
+  if that does not work....
+please clone repo, then open in code editor, open in root, ensure all npms are installed properly, ensure your local has mysql capabilities, and run "npm start' in your terminal. following successful run, open "localhost:3001" in your chrome (prefered) browser.
 
   ## Usage
 
-  Follow [Link] (https://stark-castle-57943.herokuapp.com/)
+  Follow [Link] (![image](https://user-images.githubusercontent.com/98435396/182050321-a0703be5-fa8f-4e3a-92d0-014128d48e93.png))
 
   ## Technology
 
