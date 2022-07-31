@@ -1,7 +1,6 @@
 
   # Tech-Blog-14
-  
-  https://stark-castle-57943.herokuapp.com/
+
   
   ## Table of Contents
   - [Description](#description)
